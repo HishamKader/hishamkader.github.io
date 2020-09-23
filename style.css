@@ -7,3 +7,14 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 18px
 }
+
+body{
+    background-color: #cc5e5e;
+    font-family: 'Bebas Neue', cursive;
+}
+
+img{
+    margin-left: -342px;
+    margin-right: 0;
+    width: 25%;
+}
