@@ -6,9 +6,12 @@
 }
 
 .col-8{
-    font-size: 20px;
+    font-size: 80px;
     color: white;
-    margin-left: -105px;
+    margin-left: -55px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 45px;
+    
 }
 
 .nav-link{
@@ -21,9 +24,18 @@ body{
 }
 
 img{
-    margin-left: -90px;
+    margin-left: -80px;
     width: 90%;
     
+}
+.lead{
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.about{
+    font-size: 40px;
+    color: white;
 }
 
 .container{
@@ -55,11 +67,9 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  
   input[type=submit]:hover {
     background-color: #235097;
   }
-  
   
   .container1 {
     background-color: #343a40;
@@ -72,26 +82,15 @@ input[type=text], select, textarea {
       color: white;
   }
 
-
-li i{
-    margin-left: 200px;
-    transition: transform 0.3s ease;
-    margin: 10px 20px;
-    list-style: none;
-    
-}
-
-li i:hover{
-    transform: scale(1.25);
-}
 .col-sm {
     margin-left: 70px;
     font-size: 25px;
 }
 #section {
-    margin-left: 46%;
-    font-size: 60px;
-    font-family: 'Bebas Neue', cursive
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Bebas Neue', cursive;
+    margin: center;
 }
 
 p{
@@ -105,11 +104,12 @@ footer {
     margin-top: 20px;
     bottom: 0;
     color: #fff;
+    background-color: #343a40;
     height: 2em;
     left: 0;
     position: relative; 
     font-size: small;
-    width: 100%;
+    width: 110%;
     height: 100%;
     padding: 20px 0;
     text-align: center;

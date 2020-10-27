@@ -8,6 +8,15 @@
     color: #f7df1e;
 }
 
+.tinyIcon{
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    transition: 0.5s;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
 li i{
     margin-left: 200px;
     transition: transform 0.3s ease;
@@ -20,5 +29,5 @@ li i:hover{
 }
 li {
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
 }
