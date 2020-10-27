@@ -1,0 +1,61 @@
+
+.fa-html5 {
+    color: #e44d26;
+}
+.fa-css3-alt {
+    color: #1b73ba;
+}
+.fa-js {
+    color: #f7df1e;
+}
+.fa-php {
+    color: #7997cf;
+}
+
+.fa-node {
+    color: #82b173;
+}
+
+.fa-docker {
+    color: #2496ed;
+}
+
+.fa-centos {
+    color: #932279;
+}
+
+.fa-database {
+    color: #feb000;
+}
+
+.fa-code-branch {
+    color: #f05133;
+}
+.fa-aws {
+    color: #f8981d;
+}
+
+@media screen and (max-width: 768px){
+    .more i {
+        font-size: 30px;
+    }
+    .more li {
+        display: inline-block;
+    }
+    .more ul {
+        width: 100%;
+    }
+}
+footer {
+    margin-top: 20px;
+    bottom: 0;
+    color: #fff;
+    height: 2em;
+    left: 0;
+    position: relative; 
+    font-size: small;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
