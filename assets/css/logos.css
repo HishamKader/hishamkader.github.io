@@ -7,7 +7,12 @@
 .fa-js {
     color: #f7df1e;
 }
-
+.fa-node {
+    color: #82b173;
+}
+.fa-code-branch {
+    color: #f05133;
+}
 .tinyIcon{
     color: #ffffff;
     padding: 8px;
