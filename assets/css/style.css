@@ -14,22 +14,65 @@
     
 }
 
+.navbar-light .navbar-nav  .nav-link {
+    background-color: rgb(52, 58, 64);
+    color: white;
+    transition-duration: 350ms;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #eb497c;
+    
+    
+}
+
+.navbar-light .navbar-nav .active> .nav-link {
+ color: #eb497c;
+}
+
+.navbar-light .navbar-nav .active> .nav-link:hover {
+    color: black;
+    transition-duration: 500ms;
+}
+
+
+
+
+
 .nav-link{
     font-family:'Bebas Neue', cursive;
-    font-size: 21px;
-    color: #cc5e5e;
-    
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 1px;
+    border: 2px solid #eb497c;
+        
 }
+
+
+
+.nav-item{
+    margin-left: 15px;
+    padding: 0;
+}
+
 
 body{
-    background-color: #cc5e5e;
+    background-image: url(/assets/images/background.jpg)!important;
+    background-color: #343a40;
 }
 
-img{
+
+#face{
     margin-left: 0px;
     width: 75%;
-    border: 4px solid white;
-    
+    border: 3px solid #eb497c; 
+    border-radius: 5px;   
+    transition: 250ms;
+
+}
+#face:hover{
+    transform: scale(1.2);
 }
 .lead{
     margin-left: 0px;
@@ -41,18 +84,39 @@ img{
     color: white;
     margin-left: 50px;
     margin-right: 50px;
+    background-color: rgba(52, 58, 64, 0.68);
+    padding: 25px;
+    box-shadow: 40px;
 }
 
-.container{
+#title {
+    color: #ffffff;
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+    font-size: 95px;
+}
+.bg-light {
+ background-color: transparent!important;
+}
+
+.container0{
     border-radius: 0px;
-    background-color: #343a40;
-    padding: 20px;
-    width: 60%;
-    margin-left: 20%;
-    border: 4px solid white;
+    padding: 60px;
+    border: 4px solid #eb497c;
+    align-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.container2{
+    border-radius: 0px;
+    padding: 30px;
+    border: 4px solid #eb497c;
+    align-self: center;
+    margin-right: 300px;
+    margin-left: 300px;
 }
  .container6{
-      background-color: #343a40;
+    background-color: #343a40;
     padding: 100px;
     width: 100%;
     margin-left:0%;
@@ -92,11 +156,12 @@ input[type=text], select, textarea {
   }
 
   .container7 {
-    background-color: #343a40;
+    background-color: rgb(52, 58, 64);
     padding: 20px;
     width: 50%;
     margin-left: 25%;
-    border: 4px solid white;
+    border: 4px solid #eb497c;
+    font-size: 5px;
   }
 
   label{
@@ -105,34 +170,36 @@ input[type=text], select, textarea {
 
 #section {
     text-align: center;
-    font-size: 65px;
+    font-size: 75px;
     font-family: 'Bebas Neue', cursive;
     margin: center;
+    color: #ffffff
 }
 
 .navbar-light .navbar-brand {
-    font-size: 25px;
+    font-size: 28px; 
+    color: white;
+    transition: 350ms;
+
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #cc5e5e;
-    transition: 0.3s;
+    color: #eb497c;
     cursor: default;
 }
 
 
 
-footer {
+.footer {
     margin-top: 20px;
-    bottom: 0;
+    
     color: #fff;
     background-color: #343a40;
-    height: 2em;
-    left: 0;
+    
     position: relative; 
     font-size: small;
-    width: 110%;
     height: 100%;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
+    align-self: center;
 }

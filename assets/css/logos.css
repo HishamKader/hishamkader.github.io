@@ -16,23 +16,20 @@
 .tinyIcon{
     color: #ffffff;
     padding: 8px;
-    border: 1px solid #ffffff;
+    border: 1px solid #eb497c;
     transition: 0.5s;
     margin-right: 15px;
     font-size: 30px;
 }
-
-li i{
-    margin-left: 200px;
-    transition: transform 0.3s ease;
-    margin: 10px 20px;
-    list-style: none;
+.tinyIcon:hover{
+    color: #eb497c;
 }
 
-li i:hover{
-    transform: scale(1.25);
-}
-li {
+#conn {
     list-style: none;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+#skills{
+font-size: 1px;
 }
