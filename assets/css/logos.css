@@ -22,7 +22,8 @@
     font-size: 30px;
 }
 .tinyIcon:hover{
-    color: #eb497c;
+    color: #343a40;
+    background-color: #eb497c;
 }
 
 #conn {
@@ -31,5 +32,6 @@
 }
 
 #skills{
-font-size: 1px;
+font-size: 50px;
+font-family:'Bebas Neue', cursive;
 }
