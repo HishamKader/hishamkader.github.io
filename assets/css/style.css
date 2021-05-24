@@ -81,7 +81,7 @@ body{
 }
 
 .about{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     margin-left: 50px;
     margin-right: 50px;
@@ -157,7 +157,7 @@ input[type=text], select, textarea {
   }
 
   .container7 {
-    background-color: rgb(52, 58, 64);
+    /* background-color: rgb(52, 58, 64); */
     padding: 55px;
     width: 50%;
     margin-left: 25%;
@@ -210,3 +210,7 @@ input[type=text], select, textarea {
     font-size: 5px;
 }
 
+.box{
+    background-color: rgba(52, 58, 64, 0.68);
+    padding: 25px;
+}
