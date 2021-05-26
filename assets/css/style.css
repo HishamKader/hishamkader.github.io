@@ -214,3 +214,28 @@ input[type=text], select, textarea {
     background-color: rgba(52, 58, 64, 0.68);
     padding: 25px;
 }
+
+.card-body {
+    background-color: #343a40;
+    color: white;
+    
+    
+}
+
+.card{
+    border: 1px solid #eb497c;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+
+.btn-primary {
+    border-radius: 0px;
+    background-color: transparent;
+    border: 1px solid #eb497c
+}
+.btn-primary:hover{
+    color: black;
+    background-color: #eb497c;
+    border-color: #eb497c;
+}
