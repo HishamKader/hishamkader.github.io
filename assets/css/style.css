@@ -229,13 +229,28 @@ input[type=text], select, textarea {
 }
 
 
-.btn-primary {
+.btn {
     border-radius: 0px;
     background-color: transparent;
-    border: 1px solid #eb497c
+    border: 1px solid #eb497c;
+    color: white;
+    transition: 250ms;
 }
-.btn-primary:hover{
+.btn:hover{
     color: black;
     background-color: #eb497c;
     border-color: #eb497c;
+    
+}
+
+.repo-btn {
+    color: #eb497c;
+    margin-left: 10px;
+    transition: 150ms;
+    font-size: 15px;
+}
+
+.repo-btn:hover {
+    color: white;
+    
 }
