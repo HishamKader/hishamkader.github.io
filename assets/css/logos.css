@@ -13,16 +13,20 @@
 .fa-code-branch {
     color: #f05133;
 }
+
+.fa-react{
+    color: rgb(111, 213, 203);
+}
 .tinyIcon{
     color: #ffffff;
     padding: 8px;
     border: 1px solid #eb497c;
-    transition: 0.5s;
+    transition: 350ms;
     margin-right: 15px;
     font-size: 30px;
 }
 .tinyIcon:hover{
-    color: #343a40;
+    color: #000000;
     background-color: #eb497c;
 }
 
@@ -32,6 +36,8 @@
 }
 
 #skills{
-font-size: 50px;
+font-size: 35px;
 font-family:'Bebas Neue', cursive;
-}
+color: white;
+font-weight: normal;
+} 
