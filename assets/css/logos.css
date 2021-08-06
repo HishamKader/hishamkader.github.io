@@ -18,16 +18,14 @@
     color: rgb(111, 213, 203);
 }
 .tinyIcon{
-    color: #ffffff;
+    color: black;
     padding: 8px;
-    border: 1px solid #eb497c;
     transition: 350ms;
     margin-right: 15px;
-    font-size: 30px;
+    font-size: 35px;
 }
 .tinyIcon:hover{
-    color: #000000;
-    background-color: #eb497c;
+    color: #eb497c;
 }
 
 #conn {
@@ -38,7 +36,7 @@
 #skills{
 font-size: 35px;
 font-family:'Bebas Neue', cursive;
-color: white;
+color: rgb(0, 0, 0);
 font-weight: normal;
 align-self: center;
 
