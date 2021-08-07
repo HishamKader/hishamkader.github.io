@@ -8,7 +8,7 @@
 
 body{
     background-image: url(/assets/images/background.jpg)!important;
-    background-color: #343a40;
+    background-color: #343a40!important;
     overflow-x: hidden;
     background: no-repeat;
     background-attachment: fixed;
