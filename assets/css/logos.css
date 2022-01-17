@@ -20,14 +20,14 @@
 .tinyIcon{
     color: #ffffff;
     padding: 8px;
-    border: 1px solid #eb497c;
+    /* border: 1px solid #eb497c; */
     transition: 350ms;
     margin-right: 15px;
     font-size: 30px;
 }
 .tinyIcon:hover{
     color: #000000;
-    background-color: #eb497c;
+    /* background-color: #eb497c; */
 }
 
 #conn {

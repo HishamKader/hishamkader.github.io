@@ -64,7 +64,7 @@ body{
 #face{
     margin-left: 0px;
     width: 70%;
-    border: 1.5px solid #eb497c; 
+    border: 1.5px solid #ffffff; 
     border-radius: 0px;   
     transition: 600ms;
 
@@ -118,7 +118,7 @@ body{
     border-radius: 0px;
     padding: 25px;
     align-content: center;
-    background-color: #343a4080;
+    background-color: #343a4000;
 }
 .container2{
     border-radius: 0px;
@@ -127,7 +127,7 @@ body{
     background-color: #343a4080;
 }
  .container6{
-    background-color: #2d3237a1;
+    background-color: #eb497ce8;
     padding: 100px;
     width: 100%;
     margin-left:0%;
@@ -174,11 +174,11 @@ input[type=text], select, textarea {
   }
 
   .container7 {
-    background-color: #343a4080;;
+    /* background-color: #343a4080;; */
     padding: 30px;
     width: 50%;
     margin:auto;
-    font-size: 5px;
+    font-size: 10px;
     list-style: none;
   }
 
