@@ -96,7 +96,7 @@ body{
 
 .about{
     font-size: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 10px ;
     /* background-color: rgba(52, 58, 64, 0.68); */
     padding: 25px;
@@ -124,7 +124,7 @@ body{
     border-radius: 0px;
     padding: 30px;
     text-align: center;
-    background-color: #ffffff6f;
+    background-color: #ffffff;
     margin: auto;
     
     
