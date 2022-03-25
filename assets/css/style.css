@@ -226,7 +226,7 @@ input[type=text], select, textarea {
     padding: 10px;
     text-align: center;
     align-self: center;
-    min-height: min-content;
+    min-height: 15px;
 }
 
 .conn{
