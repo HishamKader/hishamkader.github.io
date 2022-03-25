@@ -132,8 +132,6 @@ body{
     background-color: #eb497ce8;
     padding: 100px;
     width: 100%;
-    margin-left:0%;
-    height: 100%;
  }
 
 input[type=text], select, textarea {
@@ -225,8 +223,10 @@ input[type=text], select, textarea {
     width: 100%;
     left: 0;
     bottom: 0;
+    padding: 10px;
     text-align: center;
     align-self: center;
+    min-height: min-content;
 }
 
 .conn{
