@@ -325,7 +325,7 @@ input[type=text], select, textarea {
   
   #contact-form{
     background-color: #1741e800;
-    padding: 40px;
+    padding: 10px;
   }
 
   .container7 {
@@ -347,7 +347,7 @@ input[type=text], select, textarea {
     text-align: center;
     font-size: 75px;
     font-family: 'Bebas Neue', cursive;
-    margin: center;
+    
     color: #1741e8e8;
     padding: 15px;
     margin: auto;
