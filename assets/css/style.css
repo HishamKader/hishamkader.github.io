@@ -14,6 +14,17 @@ body{
 }
 
 @media (max-width: 786px) {
+    body{
+        background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
+        background-color: #343a40!important;
+        overflow-x: hidden;
+        background: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+
+@media (max-width: 786px) {
     .navbar-expand-lg{
         text-align: center;
     }
