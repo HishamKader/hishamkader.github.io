@@ -17,6 +17,24 @@
 .fa-react{
     color: rgb(111, 213, 203);
 }
+
+.fab{
+    transition: ease-out 300ms; 
+}
+.fab:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+    
+}
+
+.fas{
+    transition: ease-out 300ms; 
+}
+.fas:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+    
+}
 .tinyIcon{
     color: #ffffff;
     padding: 8px;
@@ -38,7 +56,7 @@
 #skills{
 font-size: 35px;
 font-family:'Bebas Neue', cursive;
-color: white;
+color: rgb(0, 0, 0);
 font-weight: normal;
 align-self: center;
 
