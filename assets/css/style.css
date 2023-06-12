@@ -8,19 +8,20 @@
 body{
     background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
     background-color: #343a40!important;
-    overflow-x: hidden;
-    background: no-repeat;
-    background-attachment: fixed;
+    margin: 0;
+  width: 100vw; 
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
 }
-
-
 @media (max-width: 786px) {
     body{
         background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
         background-color: #343a40!important;
-        overflow-y: auto;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch;
+       
+        
 
     }
 }
