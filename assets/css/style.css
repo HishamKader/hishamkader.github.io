@@ -13,6 +13,13 @@ body{
     background-attachment: fixed;
 }
 
+@media (max-width: 786px) {
+    .navbar-expand-lg{
+        text-align: center;
+    }
+}
+
+
 
 .navbar-light .navbar-nav  .nav-link {
     background-color: rgba(255, 255, 255, 0);
@@ -59,9 +66,6 @@ body{
 }
 
 
-
-
-
 #face{
     width: 300px;
     height: 300px;
@@ -72,6 +76,13 @@ body{
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+}
+
+@media (max-width: 786px) {
+    #face{
+        width: 220px;
+        height: 220px;
+    }
 }
       
       @keyframes fadeIn {
@@ -100,7 +111,11 @@ body{
       }
 
 
-
+      @media (max-width: 786px){
+          .nameHead{
+              font-size: 40px!important;   
+          }
+      }
 
 .nameHead{
     font-size: 70px;
@@ -139,6 +154,8 @@ body{
       }
     
 
+
+
 #face:hover{
     transform: scale(1.0);
 }
@@ -153,7 +170,9 @@ body{
     color: rgb(0, 0, 0);
     margin: 10px ;
     /* background-color: rgba(52, 58, 64, 0.68); */
-    padding: 30px;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     box-shadow:  10px 10px 8px rgba(0, 0, 0, 0.671);
     background-color: rgb(255, 255, 255);
     transition: ease-out 500ms;
@@ -166,7 +185,10 @@ body{
 }
 
 #aboutMe{
-    margin: 100px
+    margin: 100px;
+    
+    
+
     
 }
 
@@ -202,21 +224,21 @@ body{
    padding: 50px;
 }
 
-@media (max-width: 786px) {
-}
-
-
 
 .container2{
     border-radius: 0px;
-    padding: 60px;
-    padding-left: 70px;
-    padding-right: 70px;
     text-align: center;
     background-color: #1741e8af;
     flex-direction: column;
-    margin: 40px;
-    box-shadow: #343a40;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media (max-width: 786px) {
+    .about{
+        font-size: 20px;
+    }
 }
 
 #contact{
@@ -258,6 +280,12 @@ body{
     gap: 30px;
     
  }
+
+ @media (max-width: 786px) {
+    .container6{
+        text-align: center;
+    }
+}
 
  
 
