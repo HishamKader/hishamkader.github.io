@@ -18,8 +18,8 @@ body{
     body{
         background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
         background-color: #343a40!important;
-        overflow-x:visible;
-        
+        overflow-x: hidden;
+        background: repeat-y;
         background-attachment: fixed;
         
     }
