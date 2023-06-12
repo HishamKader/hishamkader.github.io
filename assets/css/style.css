@@ -63,8 +63,8 @@ body{
 
 
 #face{
-    margin-left: 0px;
-    width: 70%;
+    width: 400px;
+    height: auto;
     border: 1.5px solid #ffffff; 
     border-radius: 0px;   
     animation: fadeIn 5s;
@@ -101,19 +101,11 @@ body{
 
 
 
-.col-9{
-    color: white;
-    font-size: 70px;
-    font-family: 'Bebas Neue', cursive;
-    background-color: #343a40;
-}
 
-.col-8{
+.nameHead{
     font-size: 70px;
     color: white;
-    margin-left: -55px;
     font-family: 'Bebas Neue', cursive;
-    padding-top: 45px;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
@@ -148,7 +140,7 @@ body{
     
 
 #face:hover{
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 .lead{
     margin-left: 0px;
@@ -257,8 +249,12 @@ body{
  .container6{
     background-color: #1741e8e8;
     padding: 100px;
-    width: 100%;
-    
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
  }
 
  
