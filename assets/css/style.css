@@ -18,7 +18,7 @@ body{
     body{
         background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
         background-color: #343a40!important;
-        overflow-x: hidden;
+        overflow-x:visible;
         background: repeat;
         background-attachment: fixed;
         
