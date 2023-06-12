@@ -5,6 +5,11 @@
     box-sizing: border-box;  
 }
 
+html{
+    
+  
+}
+
 body{
     background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
     background-color: #343a40!important;
@@ -96,6 +101,7 @@ body{
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+    transition: ease-out 500ms;
 }
 
 @media (max-width: 786px) {
@@ -177,7 +183,7 @@ body{
 
 
 #face:hover{
-    transform: scale(1.0);
+    transform: scale(1.1);
 }
 .lead{
     margin-left: 0px;
