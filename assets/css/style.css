@@ -5,10 +5,7 @@
     box-sizing: border-box;  
 }
 
-html{
-    
-  
-}
+
 
 body{
     background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
@@ -278,14 +275,15 @@ body{
 @media (max-width: 786px) {
     #contact{
         margin: 0%;
-        padding: 50px;
-                
+        padding: 40px;
+        flex-direction: column!important; 
+
     }
 }
 
 @media (max-width: 786px) {
     #contact-me{
-        font-size: 30px;
+        font-size: 40px;
         margin-left: 30px;
     }
 }
