@@ -11,7 +11,7 @@ body{
     background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
     background-color: #343a40!important;
     overflow-x: hidden;
-    background: no-repeat;
+    background: repeat;
     background-attachment: fixed;
 }
 
