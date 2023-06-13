@@ -20,7 +20,7 @@ body{
     body{
         background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
         background-color: #343a40!important;
-        background-position: center;
+        background-position: right;
         background-repeat: repeat!important;
         
 
@@ -281,7 +281,6 @@ body{
 @media (max-width: 786px) {
     #contact-me{
         font-size: 40px;
-        margin-left: 30px;
     }
 }
 
