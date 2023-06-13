@@ -20,12 +20,10 @@ body{
     body{
         background-image: url(/assets/images/lines-3659995_1920.jpg)!important;
         background-color: #343a40!important;
-        margin: 0;
-  width: 100vw; 
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
 
     }
 }
