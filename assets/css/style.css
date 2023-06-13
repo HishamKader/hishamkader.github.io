@@ -205,8 +205,10 @@ body{
 }
 
 #aboutMe{
-    margin: 100px;
     
+    background-color: rgba(255, 255, 255, 0.605);
+    
+    padding: 100px 170px 170px 170px;
     
 
     
@@ -215,6 +217,7 @@ body{
 @media (max-width: 786px) {
     #aboutMe{
         margin: 0px;
+        padding: 10px;
     }
 }
 
@@ -289,7 +292,7 @@ body{
     color: white;
 }
  .container6{
-    background-color: #1741e8e8;
+    background-color: #1741e8b1;
     padding: 80px;
     display: flex;
     margin: auto;
