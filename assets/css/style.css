@@ -196,6 +196,7 @@ body{
     box-shadow:  10px 10px 8px rgba(0, 0, 0, 0.671);
     background-color: rgb(255, 255, 255);
     transition: ease-out 500ms;
+    text-shadow: rgba(83, 83, 83, 0.451) 1px 0 8px;
 }
 
 .about:hover{
